@@ -3,7 +3,7 @@ kind: Task
 metadata:
   name: cleanup
 
-sepc:
+spec:
   description: This task will clean up a workspace by deleting all the files.
   workspaces:
     - name: source
@@ -39,7 +39,7 @@ kind: Task
 metadata:
   name: nose
 
-sepc:
+spec:
   description: This task will test code.
   workspaces:
     - name: source
